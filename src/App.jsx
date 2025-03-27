@@ -11,9 +11,6 @@ import { useState,useEffect } from 'react'
 function App() {
 
   const [todos, settodos] = useState([
-    { input: "eat", complete: true },
-    { input: "sleep", complete: false },
-    {input:"code",complete:true}
   ]);
 
   const [selecttab, setselecttab] = useState("Open");
