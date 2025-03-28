@@ -232,3 +232,34 @@ hr {
     padding: 1rem 1.5rem;
   }
 }
+
+
+
+
+
+
+.footer {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 800px;
+  /* position: relative; */
+  overflow: hidden;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+}
+
+.creator-name {
+  font-weight: 600;
+  color: #ffd700;
+  /* Gold accent */
+  margin-left: 0.3rem;
+}

@@ -5,7 +5,7 @@ import { Todolist } from './components/Todolist'
 import { Tabs } from './components/Tabs'
 import { Todoinput } from './components/Todoinput'
 import { useState,useEffect } from 'react'
-
+import { Footer } from './components/Footer'
 
 
 function App() {
@@ -77,6 +77,7 @@ function App() {
         handledelete={handledelete}
         handlecompletetodo={handlecompletetodo}
       ></Todolist>
+      <Footer></Footer>
     </>
   );
 }
